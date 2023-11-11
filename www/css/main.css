@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'Anonymous Pro'; 
+	src: local('Anonymous Pro'),
+		url(/fonts/AnonymousPro-Bold.ttf); 
+}
+  
+@font-face {
+	font-family: 'Anonymous Pro'; 
+	src: local('Anonymous Pro'),
+		url(/fonts/AnonymousPro-Regular.ttf); 
+}
+
+h1 {
+    color: var(--black, #121723);
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo {
+    display: inline-flex;
+    width: 212.34px;
+    height: 63.24px;
+    margin-left: 142.52px;
+    margin-top: 30.2px;
+    margin-bottom: 16.6px;
+}
+
+.nav-list-content {
+    display: inline-flex;
+    gap: 24px;
+    list-style: none;
+    padding-right: 272px;
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+a {
+    color: black;
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    margin-left: 142.52px;
+    gap: 25px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: 0px solid var(--text_gray, #A1A6B4);
+}
+
+.card {
+    flex-direction: column;
+    margin: 25px;
+    width: 371px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.title {
+    border-radius: 12px;
+    border: 0px solid var(--text_gray, #A1A6B4);
+}
+
+h2 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: column;
+}
+
+h3 {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    height: 142px;
+    background: var(--black, #121723);
+}
+
+.footer {
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.nav-footer-content {
+    display: inline-flex;
+    list-style: none;
+    gap: 24px;
+    margin-right: 272px;  
+}
+
+.footer-link {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--white, #FFF);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.first {
+    width: 1440px;
+    height: 1px;
+    background: var(--text_gray, #A1A6B4);
+}
+
+.second {
+    width: 1440px;
+    height: 1px;
+    background: rgba(230, 232, 236, 0.40);
+    align-items: center;
+}
+
+p {
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
